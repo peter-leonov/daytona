@@ -128,7 +128,7 @@ jobs:
 
   update-homebrew-tap:
     if: ${{ inputs.npm_tag == 'latest' }}
-    runs-on: blacksmith-4vcpu-ubuntu-2404
+    runs-on: ubuntu-latest
     permissions: {}
     name: Update Homebrew CLI tap
     steps:
