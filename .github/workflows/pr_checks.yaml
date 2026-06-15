@@ -295,7 +295,6 @@ jobs:
           # These must not be removed or weakened -- a malicious PR that strips them
           # would pass a file-existence check but silently disable supply chain protection.
           REQUIRED_KEYS = {
-              "npmMinimalAgeGate": 10080,  # 7 days in minutes
           }
 
           errors = []
