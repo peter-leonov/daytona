@@ -4177,19 +4177,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clickhouse/client-common@npm:1.21.0-head.68dd619.1":
-  version: 1.21.0-head.68dd619.1
-  resolution: "@clickhouse/client-common@npm:1.21.0-head.68dd619.1"
-  checksum: 10c0/34d1be8064549d277077bcc253df0ab9e1aa3a33710cf1bf90f2a19cb88d6ecd8e7bb12e7609954ef00032c23abf22622333387f3dc91683bcf02c549579c0f6
-  languageName: node
-  linkType: hard
-
-"@clickhouse/client@npm:head":
-  version: 1.21.0-head.68dd619.1
-  resolution: "@clickhouse/client@npm:1.21.0-head.68dd619.1"
-  dependencies:
-    "@clickhouse/client-common": "npm:1.21.0-head.68dd619.1"
-  checksum: 10c0/6d75767311851ed92f5eb2a75022c7ec8dc6cea0fdf21d80f633181a0fb2ce6c773c8067724669540c94929af927811ea05e5bb631872ccb3d341643d9a3aaec
+"@clickhouse/client@npm:1.23.0-head.dbc2960.1":
+  version: 1.23.0-head.dbc2960.1
+  resolution: "@clickhouse/client@npm:1.23.0-head.dbc2960.1"
+  checksum: 10c0/23b57b8de1ff54c11e7de05c7f42f8a5d5c2ef99d7c84238d240dfc52b0312b37ddc6478918358dc759db5ac82cecaf00eca02224be42912340322cc400ec4f3
   languageName: node
   linkType: hard
 
@@ -21456,7 +21447,7 @@ __metadata:
     "@bufbuild/protobuf": "npm:^2.11.0"
     "@bufbuild/protoc-gen-es": "npm:^2.11.0"
     "@chenglou/pretext": "npm:^0.0.5"
-    "@clickhouse/client": "npm:head"
+    "@clickhouse/client": "npm:1.23.0-head.dbc2960.1"
     "@docsearch/css": "npm:4.6.2"
     "@docsearch/react": "npm:4.6.2"
     "@dotenvx/dotenvx": "npm:^1.25.1"
